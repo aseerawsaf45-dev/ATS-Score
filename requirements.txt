@@ -1,0 +1,18 @@
+# ─── Core NLP & ML (preferred: full semantic matching) ───────────────────────
+sentence-transformers>=2.7.0      # Semantic similarity via embeddings (recommended)
+scikit-learn>=1.4.0               # TF-IDF fallback + cosine similarity
+numpy>=1.26.0                     # Required by sentence-transformers
+
+# ─── Resume file parsing ──────────────────────────────────────────────────────
+pdfplumber>=0.10.0                # PDF text extraction (accurate layout-aware)
+python-docx>=1.1.0                # DOCX parsing
+
+# ─── Optional: spaCy NLP (used if available) ─────────────────────────────────
+# spacy>=3.7.0
+# After install: python -m spacy download en_core_web_sm
+
+# ─── Optional: Streamlit UI ───────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ─── Standard library (no install needed) ────────────────────────────────────
+# re, json, argparse, dataclasses, pathlib — all stdlib
